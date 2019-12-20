@@ -137,3 +137,13 @@ input:focus {
 #selectedCityInfo div{
   margin: 15px 0px;
 }
+
+.btnWrap {
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.red {
+  color: red;
+}
