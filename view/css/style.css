@@ -41,47 +41,6 @@ input:focus {
 .marginT5 {
   margin-top: 5px;
 }
-.marginT30 {
-  margin-top: 30px;
-}
-.filters {
-  width: 16%;
-  position: fixed;
-  height: 75vh;
-  background: cadetblue;
-  padding: 10px;
-  border-radius: 5px;
-}
-.flights {
-  width: 75%;
-  margin-left: 21%;
-}
-.dn {
-  display: none;
-}
-
-.error {
-  color: red;
-}
-.sort {
-  display: flex;
-  width: 90%;
-  justify-content: space-around;
-  margin: auto;
-}
-.card {
-  width: 90%;
-  border: 2px solid #8e5203;
-  padding: 20px;
-  background: antiquewhite;
-  margin: 15px auto;
-}
-
-#sorter {
-  background: burlywood;
-  padding: 5px 0px;
-  border-radius: 5px;
-}
 
 
 /*  */

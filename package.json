@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prestart": "npm install",
+    "pretest": "npm install",
     "start": "node app.js",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha test --exit"
   },
