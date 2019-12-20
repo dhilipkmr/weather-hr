@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./css/style.css"  rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="margin20 textCenter fs20">The Weather Finder</div>
+    <div class="wrap">
+      <label class="db padB10" for="city">Select a City: </label>
+      <input type="text"  placeholder="City Name" id="city" />
+      <div class="posRel">
+        <div id="suggestions" class="suggestions">
+          <div class="suggestionItem">No Info available!</div>
+        </div>
+      </div>
+      <div id="selectedCityInfo">
+        <div>
+          <span class="w50in">City:</span>
+          <span class="w50in txtLeft" id="selectedCity"></span>
+        </div>
+        <div>
+          <span class="w50in">Weather:</span>
+          <span class="w50in txtLeft" id="selctedWeather"></span>
+        </div>
+        <div>
+          <span class="w50in">Status:</span>
+          <span class="w50in txtLeft" id="selectedStatus"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js" type="text/javascript"></script>
+</html>

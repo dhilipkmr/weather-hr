@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.481" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-20T12:13:49" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Flighter app 
+" timestamp="2019-07-20T12:13:49" tests="8" file="/Users/dhilip.velusamy/Desktop/HRnk/Flighter2/test/test.js" failures="0" time="2.481">
+    <testcase name="Flighter app 
+ should add the flight card on clicking `Add` button" time="0.393" classname="should add the flight card on clicking `Add` button">
+    </testcase>
+    <testcase name="Flighter app 
+ should show error when input fields are empty" time="0.18" classname="should show error when input fields are empty">
+    </testcase>
+    <testcase name="Flighter app 
+ should reset after adding a flight item" time="0.262" classname="should reset after adding a flight item">
+    </testcase>
+    <testcase name="Flighter app 
+ should allow to sort by price" time="0.633" classname="should allow to sort by price">
+    </testcase>
+    <testcase name="Flighter app 
+ should allow to sort by Rating" time="0.322" classname="should allow to sort by Rating">
+    </testcase>
+    <testcase name="Flighter app 
+ should change asc/desc text while Sorting based on Price and Rating" time="0.131" classname="should change asc/desc text while Sorting based on Price and Rating">
+    </testcase>
+    <testcase name="Flighter app 
+ should have specified Bg colors in sorter heading and flights card" time="0.317" classname="should have specified Bg colors in sorter heading and flights card">
+    </testcase>
+    <testcase name="Flighter app 
+ should have correct border color for flights card" time="0.243" classname="should have correct border color for flights card">
+    </testcase>
+  </testsuite>
+</testsuites>
