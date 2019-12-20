@@ -31,7 +31,7 @@ Weather.prototype.updatecitySelect = function(results) {
 
 Weather.prototype.updateSuggestions = function() {
   if (this.weatherResults.length === 0) {
-    this.$suggestions.innerHTML = `<div class="suggestionItem red">No Info available!</div>`;
+    this.$suggestions.innerHTML = `<div class="suggestionItem red">No results</div>`;
   } else {
     this.$suggestions.innerHTML = this.weatherResults.map((item) => {
       return `<div class="suggestionItem">${item.name}</div>`;

@@ -1,10 +1,9 @@
 {
-  "name": "flighter-app-front-end",
+  "name": "weather-app-front-end",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "prestart": "npm install",
-    "pretest": "npm install",
     "start": "node app.js",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha test --exit"
   },
@@ -23,7 +22,7 @@
     "body-parser": "~1.17.1",
     "chai-as-promised": "^7.1.1",
     "chai-dom": "^1.8.1",
-    "chromedriver": "^2.33.2",
+    "chromedriver": "2.40.0",
     "debug": "~2.6.3",
     "express": "~4.15.2",
     "mocha": "^3.5.0",
